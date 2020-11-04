@@ -9,7 +9,7 @@ stuff I kinda know a bit + interesting projects
   - some discord bots
     - finding youtube tutorials automagically (no commands)
     - finding dnd *things* in same style, shares code (very wip)
-  - snake, where the game is rendered in poetry
+  - snake, where the game is rendered in poetry stanzas
 - ### java
   - ap comp sci
     - cool lil graph maker from data
