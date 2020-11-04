@@ -5,12 +5,18 @@
   <img src="https://pronouns.vercel.app/he/him?gradient=mango" width="256" height="64" alt="My pronouns are he/him">
 </a>
 
-eh il make this pretty *later*
-- [X] make a readme
-- [X] make it good
-- [ ] make it informative
+- [x] make readme
+- [x] make look nice
+- [x] make informative
 
-
-![lil picrew man](https://share-cdn.picrew.me/app/share/202011/2208_qNDOcsNz.png)
-
-feel free to look around
+stuff I kinda know a bit + interesting projects
+- ### python
+  - a sci fi roguelike, via tcod
+  - some discord bots
+    - finding youtube tutorials automagically (no commands)
+    - finding dnd *things* in same style, share code (very wip)
+  - snake, where the game is rendered in poetry
+- ### java
+  - ap comp sci
+    - cool lil graph maker from data
+  - iron panthers robotics team
