@@ -97,8 +97,32 @@
     margin: 0 6px;
   }
 
-  .avatar.organization {
+  .organization.avatar {
     border-radius: 15%;
+  }
+
+  .organization.name {
+    white-space: nowrap;
+  }
+
+  .organization.contributions {
+    margin: 0 8px;
+    flex-wrap: wrap;
+  }
+
+  .contribution.organization {
+    display: flex;
+    border: 1px solid #959da5;
+    border-radius: 6px;
+    padding: 2px 6px;
+    padding-left: 0;
+    margin: 2px;
+    font-size: 12px;
+    background-color: #959da520;
+  }
+
+  .contribution.organization .avatar {
+    margin: 0 4px;
   }
 
 /* Commit calendar */
@@ -935,6 +959,12 @@
   }
   .ct-grid {
     stroke: rgba(127, 127, 127, 0.4) !important;
+  }
+
+/* Autosize */
+  .autosize {
+    width: auto;
+    height: auto;
   }
 
 /* Fade animation */
@@ -2324,6 +2354,9 @@
                             <div class="info">
                                 <div class="title">
                                     Developer
+                                    <span class="gh">
+                                        ranked 2.74m out of 69m users
+                                    </span>
                                 </div>
                                 <div class="text">
                                     Published 12 public repositories
@@ -2371,7 +2404,7 @@
                     These metrics do not include all private contributions, timezone America/Los_Angeles
                 </span>
                 <span>
-                    Last updated Fri, 16 Apr 2021 21:03:41 GMT with lowlighter/metrics@3.6.0
+                    Last updated Fri, 16 Apr 2021 22:04:30 GMT with lowlighter/metrics@3.7.0
                 </span>
             </footer>
             <div id="metrics-end"></div>
