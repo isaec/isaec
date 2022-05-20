@@ -18,7 +18,7 @@ jobs:
           user: isaec
           template: classic
           base: activity, community, repositories, metadata
-          config_padding: 6%, 5 + 6%
+          config_padding: 6%
           config_timezone: America/Los_Angeles
           plugin_achievements: yes
           plugin_achievements_limit: 3
